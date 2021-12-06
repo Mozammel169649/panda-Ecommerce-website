@@ -1,0 +1,90 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-bottom: 50px;
+}
+.orange-bg{
+    background-color:#feeae9;
+    border-radius: 20px;
+    
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+
+.price{
+    color: #ff136f;
+}
+.Buy-Now-button{
+    background-image: linear-gradient(to bottom,#FF5898 0%,#FF136F);
+    color: white;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+    border: none;
+}
+
+.item1{
+    background-image: linear-gradient(90deg,orange, yellow);
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.item2{
+    background-image: linear-gradient(90deg,rgb(252, 79, 108), rgb(216, 53, 80));
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.item3{
+    background-image: linear-gradient(90deg,rgb(99, 139, 248), rgb(45, 141, 196));
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.Categories h2{
+    font-size:30px;
+    color: rgb(247, 244, 242);
+}
+
+
+.Categories img{
+    width: 100px;
+}
+
+.card{
+    border-radius: 10px;
+}
+
+.Shoes img{
+    width: 80%;
+    margin: auto;
+}
+
+.Shoes h5{
+    padding-bottom: 3%;
+    outline-width: 550;   
+}
+
+.Backpack img{
+    width: 80%;
+    margin: auto;
+}
+
+.Backpack h5{
+    font-weight:550 ;
+    padding-bottom: 3%;
+}
+.input-group{
+    width: 50%;
+    margin: auto;
+}
+
+.footer h6{
+    color: gray;
+}
+
+.footer input{
+   height: 32%;
+   border-radius: 5px;
+   border: none;
+}

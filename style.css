@@ -1,62 +1,90 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
 .container{
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 .orange-bg{
-    background-color:#fceae8;
-    border-radius: 15px;
-
+    background-color:#feeae9;
+    border-radius: 20px;
+    
 }
 .carousel-item{
     padding: 20px 40px;
 }
+
 .price{
-    color:#ff136f;
+    color: #ff136f;
 }
-.buy-now-button{
-    background-image: linear-gradient(#ff5896 0%,#ff136f 100%);
+.Buy-Now-button{
+    background-image: linear-gradient(to bottom,#FF5898 0%,#FF136F);
     color: white;
-    border-radius: 4px;
-    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
     cursor: pointer;
-
-}
-.cat-1{
-    background-image: linear-gradient(#f18dae 0%,#e21686 100%);
-    padding: 10px 30px;
-    border-radius: 15px;
-
-}
-.cat-2{
-    background-image: linear-gradient(#a3d8dadc 0%,#30a3e6 100%);
-    padding: 10px 30px;
-    border-radius: 15px;
+    border: none;
 }
 
-.cat-3{
-    background-image: linear-gradient(#d498da 0%, #cc12d3 100%);
+.item1{
+    background-image: linear-gradient(90deg,orange, yellow);
+    border-radius: 20px;
     padding: 10px 30px;
-    border-radius: 15px;
 }
+.item2{
+    background-image: linear-gradient(90deg,rgb(252, 79, 108), rgb(216, 53, 80));
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.item3{
+    background-image: linear-gradient(90deg,rgb(99, 139, 248), rgb(45, 141, 196));
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.Categories h2{
+    font-size:30px;
+    color: rgb(247, 244, 242);
+}
+
+
+.Categories img{
+    width: 100px;
+}
+
 .card{
-    border: none;
-    border-radius: 15px;
-    box-shadow: 5px 5px 5px gray;
+    border-radius: 10px;
 }
-#subscribe{
-    height: 300px;
+
+.Shoes img{
+    width: 80%;
+    margin: auto;
 }
-.sub{
-    padding-top: 20px;
-    padding-bottom: 10px;
+
+.Shoes h5{
+    padding-bottom: 3%;
+    outline-width: 550;   
 }
-.control{
-    height: 35px;
-    width: 300px;
-    border: none;
-    box-shadow: 3px 3px 2px gainsboro;
-    border-radius: 3px;
-    text-align: center;
+
+.Backpack img{
+    width: 80%;
+    margin: auto;
 }
-.last{
-    text-align: center;
+
+.Backpack h5{
+    font-weight:550 ;
+    padding-bottom: 3%;
+}
+.input-group{
+    width: 50%;
+    margin: auto;
+}
+
+.footer h6{
+    color: gray;
+}
+
+.footer input{
+   height: 32%;
+   border-radius: 5px;
+   border: none;
 }
